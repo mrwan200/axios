@@ -2,7 +2,7 @@
 
 export type AxiosRequestHeaders = Record<string, string | number | boolean>;
 
-export type AxiosResponseHeaders = Record<string, string> & {
+export type AxiosResponseHeaders = Record<string, any> & {
   "set-cookie"?: string[]
 };
 
